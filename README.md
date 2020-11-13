@@ -7,5 +7,10 @@ a semicolon:
 - "##*", to generate a no numbered subsection  -> "##*Hello world;"  = "\subsection*{Hello world}"
 - "_", to mark the beginnning of a empty paragraph "_Hello world;" = "Hello world"
 I create this parser to write simple latex fastest and easilier, all aportations are welcome.
-#Installation
-Is written in Golang so it needs the latest version of GO to compile.
+# Installation
+Is written in Golang so it needs the latest version of GO to compile, then just clone this repo and do:
+```
+$ git clone "https://github.com/yollotltamayo/text_to_tex.git"
+$ cd text_to_tex/
+$ go run main.go "here goes you string to parse"
+```
