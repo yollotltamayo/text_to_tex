@@ -15,8 +15,8 @@ func Eval( ast token.Ast ) string  {
         }
         }else { 
             if len(a.Literal )> 0 {
-            ans += templates.Key(a.Type) +"{"+a.Literal +"}"+"\n"
-        }
+                ans += templates.Key(a.Type) +"{"+a.Literal +"}"+"\n"
+            }
         }
     }
     return ans
