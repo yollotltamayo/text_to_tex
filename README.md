@@ -17,7 +17,7 @@ $ cd text_to_tex/
 $ go run main.go {file to parse}
 ```
 # Options to parse
-Currently you can read files and strings, to read files just run:
+Currently it can parse files and strings, to read files just run:
 ```
 $ go run main.go {file to parse}
 ```
