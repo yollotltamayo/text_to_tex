@@ -1,5 +1,5 @@
 # Text to Tex
-This parser implementation parses pseudo markdown to current LaTeX, currently five commands are working, all commands should be appended at the begining of the sentenve and end with a semicolon:
+This parser implementation parses pseudo markdown to current LaTeX, currently five commands are working, all commands should be appended at the begining of the sentence and end with a semicolon:
 - "#", to generate a section  -> "#Hello world;"  = "\section{Hello world}"
 - "#*", to generate a no numbered section  -> "#*Hello world;"  = "\section*{Hello world}"
 - "##", to generate a subsection  -> "##Hello world;"  = "\subsection{Hello world}"
